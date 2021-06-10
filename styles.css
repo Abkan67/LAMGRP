@@ -46,6 +46,6 @@ a {
     color: white;
 }
 @keyframes entice {
-    0%{background-color: turquoise;}
+    0%{background-color: LightGreen;}
     100%{background-color: yellowgreen;}
 }

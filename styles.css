@@ -1,10 +1,10 @@
 #primenav {
-    background-color: blue;
+    background-color: greenyellow;
     height: 30px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0px;}
 #navtext {

@@ -1,0 +1,51 @@
+#primenav {
+    background-color: greenyellow;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    left: 0px;}
+#navtext {
+    margin: 0;
+    padding: 0;
+    height: 30px;}
+#hero {
+    height: 70px;
+    width:  100%;
+    background-color: red;
+    display: none;
+}
+body, margin {
+    padding: 0;
+    margin: 0;}
+.invisible {display: none;}
+
+#home {animation: entice 5s linear infinite alternate;}
+h1:not(#navtext) {font-size: 100px;text-align: center;}
+h2 {font-size: 65px;text-align: center;}
+h3 {font-size: 40px;text-align: center;}
+#content {padding: 50px;}
+
+.roll {
+    height: 35px;
+    font-size: 33px;
+    padding: 5px;
+    width: 1200px;
+    text-align: center;
+    background-color: blue;
+    color: wheat;
+    overflow: hidden;
+}
+.roll:hover {
+    background-color: blueviolet;
+}
+p {font-size: 25px;}
+a {
+    color: white;
+}
+@keyframes entice {
+    0%{background-color: turquoise;}
+    100%{background-color: yellowgreen;}
+}
